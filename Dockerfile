@@ -1,4 +1,5 @@
-FROM prestashop/prestashop:8-apache
+FROM prestashop/prestashop:9
+-apache
 
 # Copy Railway-aware entrypoint wrapper
 # This handles version tracking for upgrades and delegates to the
